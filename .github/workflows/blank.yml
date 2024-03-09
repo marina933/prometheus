@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  grafana:
+  prometheus:
     runs-on: ubuntu-latest
 
     steps:
@@ -50,7 +50,7 @@ jobs:
     
     - name: Access cloned repo
       run: |
-         cd Prometheus
+         cd prometheus
          ls -la
 
     - name: Deploy Helm Chart
