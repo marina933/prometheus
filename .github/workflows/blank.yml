@@ -45,12 +45,12 @@ jobs:
       with:
         depth: 1
         branch: 'main'
-        owner: 'marina'
-        repository: 'prometheus'
+        owner: 'techtorialdevops'
+        repository: 'Prometheus'
     
     - name: Access cloned repo
       run: |
-         cd prometheus
+         cd Prometheus
          ls -la
 
     - name: Deploy Helm Chart
