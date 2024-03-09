@@ -45,8 +45,8 @@ jobs:
       with:
         depth: 1
         branch: 'main'
-        owner: 'techtorialdevops'
-        repository: 'Prometheus'
+        owner: 'marina933'
+        repository: 'prometheus'
     
     - name: Access cloned repo
       run: |
